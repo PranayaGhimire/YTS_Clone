@@ -14,6 +14,8 @@ const SearchMovie = () => {
       </div>
   
     </div>
+
+    
     <div className='md:flex space-x-5 justify-center mt-5 hidden'>
         <div className='flex flex-col'>
         <p className='text-zinc-500'>
