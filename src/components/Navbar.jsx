@@ -2,7 +2,7 @@ import React from 'react'
 import logo from '../assets/logo-YTS.svg'
 const Navbar = () => {
   return (
-    <div className='fixed min-w-screen flex justify-around lg:bg-zinc-700 bg-zinc-900 text-white h-15  items-center'>
+    <div className='fixed min-w-screen flex justify-around  bg-zinc-900 text-white h-15  items-center'>
       <div className='flex space-x-4'>
         <div>
             <img src={logo} alt="" />
