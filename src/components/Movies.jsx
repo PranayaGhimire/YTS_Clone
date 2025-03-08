@@ -1,6 +1,7 @@
 import React from 'react'
 
 const Movies = () => {
+ 
   return (
     <div className='bg-zinc-700 lg:h-35 text-white p-5 hidden lg:block  '>
       <div className='space-x-1 flex justify-center'>
