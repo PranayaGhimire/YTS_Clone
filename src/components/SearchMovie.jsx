@@ -5,7 +5,7 @@ const SearchMovie = () => {
     <div className='bg-zinc-800 text-white h-85 lg:flex flex-col justify-evenly p-25 hidden'>
         
   <div className='lg:block items-center hidden'>
-  <h1 className='mb-3 ml-62 text-zinc-500 text-2xl font-bold '>Search Term:</h1>
+  <h1 className='mb-3 ml-56 text-zinc-500 text-2xl font-bold '>Search Term:</h1>
       <div className='flex space-x-6 justify-center'>
       <div className='bg-zinc-600 w-205 p-1 ml-30'>
         <input type="text" className='w-full h-full outline-none' />
