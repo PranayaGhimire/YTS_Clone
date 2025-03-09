@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useState } from 'react'
 import logo from '../assets/logo-YTS.svg'
 const Navbar = () => {
+   
   return (
     <div className='fixed min-w-screen flex justify-around  bg-zinc-900 text-white h-15  items-center'>
       <div className='flex space-x-4'>
@@ -46,6 +47,7 @@ const Navbar = () => {
          <i className="fa-solid fa-user text-2xl"></i>
          </a>
          </div>
+    
     </div>
   )
 }
