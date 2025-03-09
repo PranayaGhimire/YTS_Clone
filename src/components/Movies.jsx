@@ -12,14 +12,14 @@ const handleButtonClick= (buttonNumber) =>{
 
         {/* prev button */}
         <button
-          className='bg-zinc-800 w-20 p-2 rounded cursor-pointer'
+          className='bg-zinc-800 w-20 p-2 rounded cursor-pointer hover:bg-green-600'
           onClick={() => handleButtonClick(selectedButton - 1)}
         >
           Prev &gt;&gt;
         </button>
         {/* Button 1-8 */}
         {[1,2,3,4,5,6,7,8].map((buttonNumber)=>(
-          <button key={buttonNumber} className={`w-8 p-2 rounded cursor-pointer ${selectedButton === buttonNumber ? 
+          <button key={buttonNumber} className={`w-8 p-2 rounded cursor-pointer hover:bg-green-600 ${selectedButton === buttonNumber ? 
           'bg-green-600' : 'bg-zinc-800'}`} onClick={()=>handleButtonClick(buttonNumber)}>
           {buttonNumber}  
           </button>
@@ -34,7 +34,7 @@ const handleButtonClick= (buttonNumber) =>{
 
            {/* Next Button */}
            <button
-          className='bg-zinc-800 w-20 p-2 rounded cursor-pointer'
+          className='bg-zinc-800 w-20 p-2 rounded cursor-pointer hover:bg-green-600'
           onClick={() => handleButtonClick(selectedButton + 1)}
         >
           Next &gt;&gt;
